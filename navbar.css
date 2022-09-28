@@ -10,11 +10,12 @@
     position: relative;
     align-items: center; 
     border: none;
+    cursor: pointer;
 }
 #navbar>div>img{
     height: 60%;
 }
-#second>.dropdown{
+.second>.dropdown{
     position: absolute;
     z-index: 1;
     display: none;
@@ -25,15 +26,31 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    margin: auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-  #second:hover .dropdown{
+  .dropdown:hover{
+    background-color: rgb(245, 245, 245);
+  }
+  .dropdown a:hover{
+      background-color: white;
+  }
+  .dropdown a button{
+     width: 268px;
+  }
+  .second:hover .dropdown{
     display: grid;
     grid-template-columns: repeat(2, 300px);
 
 }
+.third:hover .dropdown{
+  display: grid;
+  grid-template-columns: repeat(1, 300px);
+
+}
   .dropdown a>:first-child{
     color: #0a8080;
+    margin: auto;
   }
   button{
     font-size: large;
@@ -42,6 +59,7 @@
   }
   button:hover{
     color: #0a8080;
+    cursor: pointer;
  }
   #navbar>:first-child{
     margin-left: 100px;
