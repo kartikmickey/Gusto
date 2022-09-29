@@ -175,7 +175,7 @@ RGB(34, 37, 37)
     width: 90%;
     margin: auto;
     display: grid;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -266,7 +266,6 @@ RGB(34, 37, 37)
         line-height: 36px; 
     }
     #fourthfirst>#table{
-        display: grid;
         grid-template-columns: 6% 94% ;
         gap: 12px 2px;
     }
@@ -280,4 +279,242 @@ RGB(34, 37, 37)
 
 }   
 }
+#fivethpart{
+    width: 100%;
+    background-color: #f8f5f2;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    margin-bottom: 90px;
+}
+#fivethpart>h5{
+    color: #f45d48;
+    font-size: 18px;
+    font-weight: 600;
+   }
+   #fivethpart>h1{
+    color: #222525;
+    font-size:49px;
+    line-height:56px;
+    width: 40%;
+    margin: auto;
+    font-weight: 700;
+   }
+   #fivethpart>#supp{
+    font-size: 19.5px;
+    color: #222525;
+    width: 42%;
+    margin: auto;
+    line-height: 24px;
+    margin-top: 27px;
+   }
+#fivethpart>h6{
+    font-size: 18px;
+    line-height: 24px;
+    color: #0a8080;
+    margin-top: 20px;
+}
+#fivethpart>h6:hover{
+    color: #26bdbd;
+    text-decoration: underline;
+}
+#fivethpart>#imgmobile{
+    width: 70%;
+    margin: auto;
+}
+#fivethpart>#imgmobile>img{
+    width: 100%;
+}
+#imtable{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    text-align: left;
+}
+#imtable>div{
+    border: 1.7px solid #efefef;
+    height: 475px;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#imtable>div>h1{
+    font-size: 32px;
+    line-height: 39px;
+    color: #222525;
+}
+#imtable>div>.whet{
+    font-size: 20px;
+    line-height: 26px;
+    Color: #6c6c72;
+}
+hr{
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    margin-top: 30px;
+}
+#fivethpart>#imtable>div>.table2{
+    display: grid;
+    grid-template-columns: 6% 94%;
+    gap: 12px 2px;
+    margin-top: 50px;
+}
+#fivethpart>#imtable>div>.table2 p{
+    font-size: 20px;
+    line-height: 24px;
+    color:#222525;
+    margin-top: -2%;
+    margin-left: 10px;
+    width: 80%;
+}
 
+@media all and (max-width: 764px){
+       #fivethpart>h1{
+        font-size:32px;
+        line-height:39px;
+        width: 73%;
+       }
+       #fivethpart>#supp{
+        width: 73%;
+       }
+    #fivethpart>#imgmobile{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 150px;
+    }
+    #imtable{
+        width: 90%;
+        flex-direction: column;
+    }
+    #imtable>div{
+        width: 80%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    #fivethpart>#imtable>div>.table2 p{
+        width: 100%;
+    }
+    
+}
+
+#sixthpart{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    margin-bottom: 120px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#sixthpart>#sixthsecond{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#sixthpart>div>#sidee{
+    width: 80%;
+    margin: auto;
+
+}
+#sixthfirst>h5{
+ color: #f45d48;
+ font-size: 18px;
+ font-weight: 600;
+ text-align: left;
+}
+#sixthfirst>h1{
+    width: 95%;
+    color:#222525;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+
+}
+#sixthfirst>#gustoo{
+    color:#222525;
+    font-size: 19.5px;
+    line-height: 25px;
+    font-weight: 500;
+    width: 95%;
+}
+#sixthfirst>h6{
+    font-size: 18px;
+    line-height: 24px;
+    color: #0a8080;
+}
+#sixthfirst>h6:hover{
+    color: #26bdbd;
+    text-decoration: underline;
+}
+#sixthfirst>#tablee{
+    display: grid;
+    grid-template-columns: 6% 44% 6% 44%;
+}
+#sixthfirst>#tablee p{
+    font-size: 20px;
+    line-height: 24px;
+    color:#222525;
+    margin-top: -2%;
+    width: 90%;
+
+}
+.fa-solid{
+    margin-left: 10%;
+    color: #39b0b2;
+    font-size: 21px;
+    font-weight: bold;
+}
+@media all and (max-width: 764px){
+    #sixthpart{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 35px;
+        margin-left: 10%;
+    }
+    #sixthfirst>h1{
+        font-size: 29px;
+        line-height: 36px; 
+    }
+    #sixthfirst>#tablee{
+        grid-template-columns: 6% 94% ;
+        gap: 12px 2px;
+    }
+#sixthpart>div>#sidee{
+    width: 90%;
+    margin-right: 10%;
+
+}   
+}
+
+#seventhpart{
+    background-color: #f8f5f2;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 65px;
+    margin-bottom: 100px;
+}
+#seventhpart>h1{
+    width: 44%;
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+    line-height: 39px;
+}
+#seventhpart>div{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+#seventhpart>div>img{
+    width: 50%;
+}
+#seventhpart>div>p{
+    margin: auto;
+    width: 35%;
+    color:#525257;
+    line-height: 16.9px;
+    font-size: 15px;
+    text-align: left;
+}
