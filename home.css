@@ -175,7 +175,7 @@ RGB(34, 37, 37)
     width: 90%;
     margin: auto;
     border: 1px solid green;
-    height: 600px ;
+    height: 700px ;
     display: grid;
     margin-bottom: 50px;
     grid-template-columns: repeat(2, 1fr);
@@ -183,7 +183,7 @@ RGB(34, 37, 37)
 #fourthpart>div{
     border: 1px solid brown;
 }
-#fourthpart>div>img{
+#fourthpart>div>#side{
     width: 80%;
     margin: auto;
     margin-left: 10%;
