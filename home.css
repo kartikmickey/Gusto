@@ -1,0 +1,283 @@
+#firstpart {
+    background-image: url("https://prod.gusto-assets.com/wp-content/uploads/Hero_Desktop-LG%402x.png");
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 180px;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+  }
+  #firstpart>:nth-child(1){
+    color: #f45d48 ;
+    font-weight: 900;
+  }
+  #firstpart>:nth-child(2){
+    font-size: 53px;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color:
+RGB(34, 37, 37)
+  }
+  #firstpart>:nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    line-height: 25px;
+    color:
+RGB(34, 37, 37)
+  }
+  #firstpart>:nth-child(4){
+    background-color: #f45d48;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 20px;
+    color: white;
+    font-size: large;
+  }
+
+  @media all and (max-width: 764px){
+    #firstpart {
+        background-image: none;
+        margin-top: 100px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+      }
+      #firstpart>:nth-child(2){
+        font-size: 42px;
+        font-weight: bold;
+      }
+      #firstpart>:nth-child(2){
+            width: 80%;
+            margin: auto;
+      }
+  }
+
+  #secondpart{
+        width: 100%;
+        margin-bottom: 80px;
+        margin-top: 80px;
+       text-align: center;
+  }
+  #secondpart>h1{
+    width: 50%;
+    margin: auto;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: 700;
+    color: RGB(34, 37, 37);
+    }
+#secondpart>:nth-child(2){
+    font-size: 19px;
+    color: RGB(34, 37, 37);
+    line-height: 24px;
+    font-weight: 300;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+#secondpart>:nth-child(3){
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+#secondpart>:nth-child(3)>div{
+ border-radius: 10px;
+ border: 1px solid #ededed;
+ margin-top: 30px;
+ font-weight: bold;
+}
+#secondpart>:nth-child(3)>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    color: RGB(43, 171, 173) ;
+    cursor: pointer;
+}
+#secondpart>:nth-child(3)>div>img{
+ width: 40%;
+ margin-top: 40px;
+ margin-bottom: 0;
+}
+#secondpart>:nth-child(3)>div>p{
+    width: 60%;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+#secondpart>:nth-child(3)>div>p:hover{
+    text-decoration: underline;
+}
+
+  @media all and (max-width: 764px){
+    #secondpart{
+        width: 100%;
+        height: auto;
+  }
+  #secondpart>h1{
+    width: 80%;
+    font-size: 32px;
+    line-height: 39px;
+    }
+    #secondpart>:nth-child(2){
+        width: 80%;
+    }
+    #secondpart>:nth-child(3){
+        width: 80%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+#thirdpart{
+    width: 100%;
+    background-color: #f8f5f2;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 75px;
+}
+#thirdpart>h1{
+    width: 40%;
+    margin: auto;
+    font-size: 42px;
+    line-height: 48px;
+}
+#thirdpart>button{
+    margin-top: 30px;
+    background-color: #f45d48;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+#thirdpart>button:hover{
+    background-color: #f0503b;
+    cursor: pointer;
+}
+@media all and (max-width: 764px){
+    #thirdpart>h1{
+        width: 70%;
+        font-size: 29px;
+        line-height: 36px;
+    }
+    #thirdpart>button{
+        padding: 12px 137px;
+    }
+}
+  
+#fourthpart{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#fourthpart>#fourthsecond{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#fourthpart>div>#side{
+    width: 80%;
+    margin: auto;
+
+}
+#fourthfirst>h5{
+ color: #f45d48;
+ font-size: 18px;
+ font-weight: 600;
+ text-align: left;
+}
+#fourthfirst>h1{
+    width: 95%;
+    color:#222525;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+
+}
+#fourthfirst>#gusto{
+    color:#222525;
+    font-size: 19.5px;
+    line-height: 25px;
+    font-weight: 500;
+    width: 95%;
+}
+#fourthfirst>h6{
+    font-size: 18px;
+    line-height: 24px;
+    color: #0a8080;
+}
+#fourthfirst>h6:hover{
+    color: #26bdbd;
+    text-decoration: underline;
+}
+#fourthfirst>#table{
+    display: grid;
+    grid-template-columns: 6% 44% 6% 44%;
+}
+#fourthfirst>#table p{
+    font-size: 20px;
+    line-height: 24px;
+    color:#222525;
+    margin-top: -2%;
+    width: 90%;
+
+}
+.fa-solid{
+    margin-left: 10%;
+    color: #39b0b2;
+    font-size: 21px;
+    font-weight: bold;
+}
+#image{
+    display: flex;
+    background-color: #feefe8;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 45px;
+}
+#image>img{
+   margin: 10px 20px;
+}
+#image>p{
+    margin-right: 40px;
+    line-height: 24px;
+    font-size: 19px;
+    margin-top: 27px;
+}
+
+@media all and (max-width: 764px){
+    #fourthpart{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 35px;
+        margin-left: 10%;
+    }
+    #fourthfirst>h1{
+        font-size: 29px;
+        line-height: 36px; 
+    }
+    #fourthfirst>#table{
+        display: grid;
+        grid-template-columns: 6% 94% ;
+        gap: 12px 2px;
+    }
+    #image{
+        width: 90%;
+        margin-right: 10%;
+ }
+#fourthpart>div>#side{
+    width: 90%;
+    margin-right: 10%;
+
+}   
+}
+
