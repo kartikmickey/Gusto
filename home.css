@@ -581,7 +581,6 @@ hr{
     padding-top: 50px;
     padding-bottom: 60px;
     text-align: center;
-    margin-bottom: 50px;
 }
 #ninethpart>h2{
     font-size: 49px;
@@ -611,4 +610,88 @@ hr{
 }
 }
 
-
+footer>div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid gray; */
+}
+footer>div>div{
+    /* border: 1px solid green; */
+    width: 23%;
+    margin: auto;
+    margin-top: 0%;
+}
+footer>div>div>h3{
+    margin-top: 50px;
+    color:#222525;
+    font-size:20px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+footer>div>div>p{
+    margin-top:0px;
+    margin-bottom: 12px;
+    color: #5a535d;
+    line-height: 24px;
+    font-size:19px;
+    font-weight: 500;
+    }
+footer>div>div>p:hover{
+color: #2BABAD;
+cursor: pointer;
+}
+footer>div>div>p>span{
+    color: #2d8e95;
+    font-weight: bold;
+}
+footer>div>.hr{
+    margin-top: 35px;
+    width: 69%;
+}
+footer>div>.talk{
+    margin-left: 1%;
+}
+#p{
+    font-size: 16px;
+    color:#6C6C72;
+    line-height: 21px;
+    width: 70%;
+    font-weight: 600;
+}
+footer>div>div>span{
+    color: #2d8e95;
+    font-weight: bold;
+    font-size: 18px;
+}
+footer>div>div>span:hover{
+    color: #2BABAD;
+    cursor: pointer;
+}
+footer>:last-child{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer>:last-child>p{
+    margin-left: 13px;
+   color: #6c6c72 ;
+   font-size: 17px;
+   line-height: 21px;
+}
+footer>:last-child>p:hover{
+    cursor: pointer;
+}
+footer>:last-child>:first-child{
+    font-size: 18px;
+    color: #222525;
+}
+.fa-brands{
+    margin-left: 23px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #bbbbbd;
+}
+.fa-brands:hover{
+    cursor: pointer;
+    color: #2BABAD;
+}
