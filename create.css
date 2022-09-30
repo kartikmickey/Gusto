@@ -16,11 +16,11 @@ body{
     height: 90%;
     /* border: 1px solid hotpink; */
 }
-#nav>div>img{
+#nav>div>a>img{
     height: 70%;
     margin: 10% 0 
 }
-#nav>div>img:hover{
+#nav>div>a>img:hover{
     cursor: pointer;
 }
 #nav>div>p{
@@ -42,7 +42,7 @@ body{
         flex-direction: column;
         height: 90px; 
     }
-    #nav>div>img{
+    #nav>div>a>img{
         height: 80%;
     }
     #nav>div>p{
