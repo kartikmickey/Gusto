@@ -1,112 +1,134 @@
 #navbar{
-    display: flex;
-    height: 80px;
-    width: 100%;
-    justify-content: space-evenly;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 #navbar>div{
-    display: flex;
-    height: 100%;
-    position: relative;
-    align-items: center; 
-    border: none;
-    cursor: pointer;
+  display: flex;
+  height: 100%;
+  position: relative;
+  align-items: center; 
+  border: none;
+  cursor: pointer;
 }
 #navbar>div>img{
-    height: 60%;
+  height: 60%;
 }
 .second>.dropdown{
-    position: absolute;
-    z-index: 1;
-    display: none;
-    top: 80px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+  top: 80px;
 }
 .dropdown a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  .dropdown:hover{
-    background-color: rgb(245, 245, 245);
-  }
-  .dropdown a:hover{
-      background-color: white;
-  }
-  .dropdown a button{
-     width: 268px;
-  }
-  .second:hover .dropdown{
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.dropdown:hover{
+  background-color: rgb(245, 245, 245);
+}
+.dropdown a:hover{
+    background-color: white;
+}
+.dropdown a button{
+   width: 268px;
+}
+.second:hover .dropdown{
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
 
 }
 .third:hover .dropdown{
-  display: grid;
-  grid-template-columns: repeat(1, 300px);
+display: grid;
+grid-template-columns: repeat(1, 300px);
 
 }
-  .dropdown a>:first-child{
-    color: #0a8080;
-    margin: auto;
+.dropdown a>:first-child{
+  color: #0a8080;
+  margin: auto;
+}
+button{
+  font-size: large;
+  border: none;
+  background-color: transparent;
+}
+button:hover{
+  color: #0a8080;
+  cursor: pointer;
+}
+#navbar>:first-child{
+  margin-left: 100px;
+}
+#navbar>:last-child{
+  margin-right: 100px;
+}
+#navbar>:nth-last-child(2)>:last-child>button{
+  height: 52px;
+  width: 170px;
+  color: white;
+  border:none;
+  background-color: #f45d48 ;
+  border-radius: 6px;
+}
+#navbar>:last-child>:nth-last-child(2)>button:hover{
+  background-color: #e63922
+}
+#seclast{
+  padding: 12px 20px;
+  background-color:#f8f5f2;
+  border-radius: 5px;
+}
+#see{
+  color: #0a8080;
+  font-weight: bold;
+}
+#see:hover{
+  color: #26bdbd;
+  text-decoration: underline;
+}
+.arrow {
+  border: solid gray;
+  border-width: 0px 1.5px 1.5px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 2.5px;
+  margin-left: 4px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.down:hover {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+#navbar a.icon{
+  display: none;
+}
+
+
+@media all and (max-width: 1134px){
+  #navbar>div{
+  margin: auto;
   }
-  button{
-    font-size: large;
-    border: none;
-    background-color: transparent;
+  #navbar>.mylinks{
+    display: none;
   }
-  button:hover{
-    color: #0a8080;
-    cursor: pointer;
- }
-  #navbar>:first-child{
-    margin-left: 100px;
-  }
-  #navbar>:last-child{
-    margin-right: 100px;
-  }
-  #navbar>:last-child>button{
-    height: 52px;
-    width: 170px;
+  #navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    font-size: xx-large;
     color: white;
-    border:none;
-    background-color: #f45d48 ;
-    border-radius: 6px;
+    top: 25px;
+    margin-left: 97%;
   }
-  #navbar>:last-child>button:hover{
-    background-color: #e63922
-  }
-  #seclast{
-    padding: 12px 20px;
-    background-color:#f8f5f2;
-    border-radius: 5px;
-  }
-  #see{
-    color: #0a8080;
-    font-weight: bold;
-  }
-  #see:hover{
-    color: #26bdbd;
-    text-decoration: underline;
-  }
-  .arrow {
-    border: solid gray;
-    border-width: 0px 1.5px 1.5px 0;
-    display: inline-block;
-    padding: 3px;
-    margin-bottom: 2.5px;
-    margin-left: 4px;
-  }
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
-  .down:hover {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-  }
+}
 
 
   

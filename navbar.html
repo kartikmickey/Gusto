@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    </head>
 <body>
     <div id="navbar">
        <div id="img">
         <img src="https://prod.gusto-assets.com/assets/svg/header/gusto-logo-bfed4fde4bd2b5dd364ab0e58f77fc90aeefa2f1ecdb7fff524279642e23f9c2.svg" alt="">
        </div>
+       <div class="mylinks">
        <div id="first">
         <button>Why Gusto</button>
        </div>
+       
        <div class="second">
         <button> Payroll and more <i class="arrow down"></i>  </button>
         <div class="dropdown">
@@ -83,42 +86,42 @@
                 <p>Payroll</p>
                 <p>
                     Lorem ipsum dolor sit amet,
-                     consectetur adipisicing elit. Necessitatibus, fuga?
+                        consectetur adipisicing elit. Necessitatibus, fuga?
                 </p>
                 </a>
                 <a href="#">
                     <p>Payroll</p>
                     <p>
                         Lorem ipsum dolor sit amet,
-                         consectetur adipisicing elit. Necessitatibus, fuga?
+                            consectetur adipisicing elit. Necessitatibus, fuga?
                     </p>
                     </a>
                     <a href="#">
                         <p>Payroll</p>
                         <p>
                             Lorem ipsum dolor sit amet,
-                             consectetur adipisicing elit. Necessitatibus, fuga?
+                                consectetur adipisicing elit. Necessitatibus, fuga?
                         </p>
                         </a>
                         <a href="#">
                             <p>Payroll</p>
                             <p>
                                 Lorem ipsum dolor sit amet,
-                                 consectetur adipisicing elit. Necessitatibus, fuga?
+                                    consectetur adipisicing elit. Necessitatibus, fuga?
                             </p>
                             </a>
                             <a href="#">
                                 <p>Payroll</p>
                                 <p>
                                     Lorem ipsum dolor sit amet,
-                                     consectetur adipisicing elit. Necessitatibus, fuga?
+                                        consectetur adipisicing elit. Necessitatibus, fuga?
                                 </p>
                                 </a>
                                 <a href="#">
                                     <p>Payroll</p>
                                     <p>
                                         Lorem ipsum dolor sit amet,
-                                         consectetur adipisicing elit. Necessitatibus, fuga?
+                                            consectetur adipisicing elit. Necessitatibus, fuga?
                                     </p>
                                     </a>
         </div>
@@ -174,12 +177,31 @@
                  consectetur adipisicing elit. Necessitatibus, fuga?
             </p>
         </a></div></div>
+    </div>
        <div>
+       
         <button id="see"><i class="fa fa-play-circle"></i> See demo</button></div>
        <div>
         <button id="seclast">Sign in</button></div>
+        <div class="mylinks">
        <div>
+        
         <button>Create account</button></div> 
+       </div>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
 </body>
 </html>
+
+<script>
+    function myFunction() {
+  var x = document.querySelector(".mylinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
