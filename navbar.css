@@ -83,6 +83,10 @@
   #navbar>:last-child>button:hover{
     background-color: #e63922
   }
+  #navbar>:last-child>button>a{
+    color: white;
+    text-decoration: none;
+  }
   #seclast{
     padding: 12px 20px;
     background-color:#f8f5f2;
