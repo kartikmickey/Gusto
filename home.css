@@ -37,7 +37,13 @@ RGB(34, 37, 37)
     color: white;
     font-size: large;
   }
-
+  #firstpart>:nth-child(4):hover{
+    background-color: #e63922
+  }
+  #firstpart>:nth-child(4)>a{
+    color: white;
+    text-decoration: none;
+  }
   @media all and (max-width: 764px){
     #firstpart {
         background-image: none;
@@ -596,6 +602,13 @@ hr{
     border-radius: 5px;
     border: none;
     font-weight: bold;
+}
+#ninethpart>button>a{
+    text-decoration: none;
+    color: #222525;
+}
+#ninethpart>button>a:hover{
+    color: #0a8080;
 }
 
 @media all and (max-width: 764px){
