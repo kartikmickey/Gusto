@@ -166,11 +166,11 @@ body{
     font-size: 20px;
     line-height: 24px;
 }
-#does>span{
+#does>span>a{
     color:#0a8080;
     text-decoration: underline;
 }
-#does>span:hover{
+#does>span>a:hover{
     cursor: pointer;
     color: #2BABAD;
 }
